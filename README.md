@@ -1,70 +1,21 @@
-# Getting Started with Create React App
+Blockchain-based Marksheet System
+Welcome to the Blockchain-based Marksheet System! This system is built using React.js, SmartPy, Temple Wallet, and Tezos blockchain. It provides a secure and decentralized solution for storing and verifying academic marksheets. 
+Introduction
+The Blockchain-based Marksheet System is a decentralized application (DApp) that utilizes blockchain technology to store and verify academic marksheets. This project is built using React.js as the frontend framework, SmartPy as the smart contract development platform, Temple Wallet as the Tezos wallet, and Tezos blockchain for storing marksheets.
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Traditional marksheet systems often suffer from issues such as data manipulation, unauthorized changes, and lack of transparency. By leveraging blockchain technology, this system ensures the immutability, transparency, and security of marksheets. The use of SmartPy and Temple Wallet in combination with Tezos blockchain provides a reliable and efficient solution for managing marksheets.
+Tech Stack
 
-## Available Scripts
+Node.js (version 12 or above)
+npm (Node Package Manager)
+SmartPy CLI
+Temple Wallet browser extension (for interacting with the Tezos blockchain)
+Usage
+Connect Temple Wallet to your Tezos network:
 
-In the project directory, you can run:
+Open the Temple Wallet browser extension.
+Create a new wallet or import an existing one.
+Connect Temple Wallet to your desired Tezos network (e.g., local sandbox or testnet).
+Access the application:
 
-### `npm start`
-
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
-
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
-
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Navigate to project folder and run npm start to access the react application
