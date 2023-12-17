@@ -1,0 +1,27 @@
+.main{
+    margin:15px;
+    display: flex;
+    flex-direction: row;
+    border-color:black;
+    align-items: center;
+    height: 550px;
+  }
+  .image{
+    width:50%;
+    overflow: hidden;
+    margin:5px;
+    /* border:2px solid black; */
+  }
+  .title{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 20px;
+    width: 50%;
+  }
+
+  button{
+    width:300px;
+    border-radius: 5px;
+  }
+  
